@@ -1,0 +1,6 @@
+- name: Hate World Sample
+  hosts: all
+  tasks:
+    - name: Hate Message
+      debug:
+        msg: "Hate World!"
